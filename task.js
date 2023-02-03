@@ -44,9 +44,20 @@
 //   }
 
 // task_14
-const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
 
-// Change code below this line
-const firstTwoEls = fruits.slice(0, 2);
-const nonExtremeEls = fruits.slice(1, fruits.length - 1);
-const lastThreeEls = fruits.slice(fruits.length - 3);
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, fruits.length - 1);
+// const lastThreeEls = fruits.slice(fruits.length - 3);
+
+// task_16
+function makeArray(firstArray, secondArray, maxLength) {
+    // Change code below this line
+let newArray = firstArray.concat(secondArray);
+if (newArray.length > maxLength) {
+  return newArray = newArray.slice(0, maxLength);
+}
+return newArray;
+    // Change code above this line
+  }
