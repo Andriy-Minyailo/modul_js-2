@@ -25,11 +25,20 @@
 //   }
 
 // task_11
-function calculateEngravingPrice(message, pricePerWord) {
+// function calculateEngravingPrice(message, pricePerWord) {
+//     // Change code below this line
+ 
+//  return (message.split(' ').length) * pricePerWord;
+ 
+//     // Change code above this line
+//  }
+
+
+// task_13
+function slugify(title) {
     // Change code below this line
- 
- return (message.split(' ').length) * pricePerWord;
- 
-    // Change code above this line
- }
   
+  return title.toLowerCase().split(' ').join('-');
+  
+    // Change code above this line
+  }
