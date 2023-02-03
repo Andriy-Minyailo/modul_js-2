@@ -17,10 +17,19 @@
 //   }
   
 // task_9
-function getExtremeElements(array) {
-    // Change code below this line
-  return [array[0]].concat([array[array.length - 1]]);
+// function getExtremeElements(array) {
+//     // Change code below this line
+//   return [array[0]].concat([array[array.length - 1]]);
   
+//     // Change code above this line
+//   }
+
+// task_11
+function calculateEngravingPrice(message, pricePerWord) {
+    // Change code below this line
+ 
+ return (message.split(' ').length) * pricePerWord;
+ 
     // Change code above this line
-  }
+ }
   
