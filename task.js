@@ -35,10 +35,18 @@
 
 
 // task_13
-function slugify(title) {
-    // Change code below this line
+// function slugify(title) {
+//     // Change code below this line
   
-  return title.toLowerCase().split(' ').join('-');
+//   return title.toLowerCase().split(' ').join('-');
   
-    // Change code above this line
-  }
+//     // Change code above this line
+//   }
+
+// task_14
+const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// Change code below this line
+const firstTwoEls = fruits.slice(0, 2);
+const nonExtremeEls = fruits.slice(1, fruits.length - 1);
+const lastThreeEls = fruits.slice(fruits.length - 3);
