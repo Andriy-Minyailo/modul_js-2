@@ -97,13 +97,27 @@
 // }
 
 // task_22
-function createArrayOfNumbers(min, max) {
-  const numbers = [];
-  // Change code below this line
-for (let i = min; i <= max; i += 1 ) {
-  numbers.push(i);
-}
-  // Change code above this line
-  return numbers;
-}
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Change code below this line
+// for (let i = min; i <= max; i += 1 ) {
+//   numbers.push(i);
+// }
+//   // Change code above this line
+//   return numbers;
+// }
 
+// task_23
+function filterArray(numbers, value) {
+   // Change code below this line
+let newArray = [];
+  for (number of numbers) {
+    if (number > value) {
+      newArray.push(number);
+    }
+  }
+  return newArray;
+
+
+  // Change code above this line
+}
