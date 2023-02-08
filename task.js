@@ -82,16 +82,28 @@
 // }
 
 // task_21
-function findLongestWord(string) {
-  // Change code below this line
-  let array = string.split(' ');
-  let maxLongWord = '';
-  for (let i = 0; i < array.length; i += 1) {
-    if (maxLongWord.length < array[i].length) {
-      maxLongWord = array[i];
-    }
-  }
-return maxLongWord;
+// function findLongestWord(string) {
+//   // Change code below this line
+//   let array = string.split(' ');
+//   let maxLongWord = '';
+//   for (let i = 0; i < array.length; i += 1) {
+//     if (maxLongWord.length < array[i].length) {
+//       maxLongWord = array[i];
+//     }
+//   }
+// return maxLongWord;
 
-  // Change code above this line
+//   // Change code above this line
+// }
+
+// task_22
+function createArrayOfNumbers(min, max) {
+  const numbers = [];
+  // Change code below this line
+for (let i = min; i <= max; i += 1 ) {
+  numbers.push(i);
 }
+  // Change code above this line
+  return numbers;
+}
+
