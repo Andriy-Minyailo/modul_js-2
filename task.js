@@ -108,16 +108,23 @@
 // }
 
 // task_23
-function filterArray(numbers, value) {
-   // Change code below this line
-let newArray = [];
-  for (number of numbers) {
-    if (number > value) {
-      newArray.push(number);
-    }
-  }
-  return newArray;
+// function filterArray(numbers, value) {
+//    // Change code below this line
+// let newArray = [];
+//   for (number of numbers) {
+//     if (number > value) {
+//       newArray.push(number);
+//     }
+//   }
+//   return newArray;
 
 
-  // Change code above this line
+//   // Change code above this line
+// }
+
+// task_24
+function checkFruit(fruit) {
+  const fruits = ["apple", "plum", "pear", "orange"];
+
+  return fruits.includes(fruit); // Change this line
 }
