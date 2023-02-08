@@ -8,7 +8,7 @@
 //     }
 //     if (ordered > available) {
 //       return "Your order is too large, not enough goods in stock!";
-//     } 
+//     }
 //       return "The order is accepted, our manager will contact you";
     
   
@@ -52,12 +52,20 @@
 // const lastThreeEls = fruits.slice(fruits.length - 3);
 
 // task_16
-function makeArray(firstArray, secondArray, maxLength) {
-    // Change code below this line
-let newArray = firstArray.concat(secondArray);
-if (newArray.length > maxLength) {
-  return newArray = newArray.slice(0, maxLength);
+// function makeArray(firstArray, secondArray, maxLength) {
+//     // Change code below this line
+// let newArray = firstArray.concat(secondArray);
+// if (newArray.length > maxLength) {
+//   return newArray = newArray.slice(0, maxLength);
+// }
+// return newArray;
+//     // Change code above this line
+//   }
+
+// task_19
+const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+for (let i = 0; i < fruits.length; i += 1) { // Change this line
+  const fruit = fruits[i]; // Change this line
+  console.log(fruit);
 }
-return newArray;
-    // Change code above this line
-  }
