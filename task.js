@@ -71,12 +71,27 @@
 // }
 
 // task_20
-function calculateTotalPrice(order) {
-  let total = 0;
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+//   for (value of order) {
+//     total += value;
+//   }
+//   // Change code above this line
+//   return total;
+// }
+
+// task_21
+function findLongestWord(string) {
   // Change code below this line
-  for (value of order) {
-    total += value;
+  let array = string.split(' ');
+  let maxLongWord = '';
+  for (let i = 0; i < array.length; i += 1) {
+    if (maxLongWord.length < array[i].length) {
+      maxLongWord = array[i];
+    }
   }
+return maxLongWord;
+
   // Change code above this line
-  return total;
 }
