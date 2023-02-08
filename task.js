@@ -63,9 +63,20 @@
 //   }
 
 // task_19
-const fruits = ['apple', 'plum', 'pear', 'orange'];
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
 
-for (let i = 0; i < fruits.length; i += 1) { // Change this line
-  const fruit = fruits[i]; // Change this line
-  console.log(fruit);
+// for (let i = 0; i < fruits.length; i += 1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+// task_20
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+  for (value of order) {
+    total += value;
+  }
+  // Change code above this line
+  return total;
 }
