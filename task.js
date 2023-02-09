@@ -146,10 +146,17 @@
 
 // task_26
 // Change code below this line
-function calculateMeanTemperature(forecast) {
+// function calculateMeanTemperature(forecast) {
 
-  const {today: {low: todayLow, high: todayHigh}, tomorrow: {low: tomorrowLow, high: tomorrowHigh}} = forecast;
-    // Change code above this line
-    return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
-  }
+//   const {today: {low: todayLow, high: todayHigh}, tomorrow: {low: tomorrowLow, high: tomorrowHigh}} = forecast;
+//     // Change code above this line
+//     return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+//   }
+
+// task_27
+const scores = [89, 64, 42, 17, 93, 51, 26];
+// Change code below this line
+const bestScore = Math.max(...scores);
+const worstScore = Math.min(...scores);
+
   
