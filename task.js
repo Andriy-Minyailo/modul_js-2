@@ -123,8 +123,21 @@
 // }
 
 // task_24
-function checkFruit(fruit) {
-  const fruits = ["apple", "plum", "pear", "orange"];
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
 
-  return fruits.includes(fruit); // Change this line
+//   return fruits.includes(fruit); // Change this line
+// }
+
+// task_25
+function getCommonElements(array1, array2) {
+  // Change code below this line
+let newArray = [];
+for (const value of array1) {
+  if (array2.includes(value)) {
+    newArray.push(value)
+  }
+}
+return newArray;
+ // Change code above this line
 }
